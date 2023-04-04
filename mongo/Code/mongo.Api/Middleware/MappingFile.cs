@@ -8,6 +8,7 @@ public class MappingFile : Profile
     public MappingFile()
     {
         // Mapping variables
+		CreateMap<PlanDetail , PlanDetailDto>(); 
 		CreateMap<Test , TestDto>(); 
     }
   }
