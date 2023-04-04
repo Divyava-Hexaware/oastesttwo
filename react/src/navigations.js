@@ -9,6 +9,11 @@ export const navigations = [
                 path: '/test',
                 iconText: 'A',
             },
+            {
+                name: 'PlanDetail',
+                path: '/PlanDetail',
+                iconText: 'A',
+            },
         ],
     },
 ]
